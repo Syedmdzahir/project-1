@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAVIGATION SECTION */
+#navbar img{
+height: 100px;
+margin: -12px -8px;
+}
+
+#navbar{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(70, 68, 68);
+    position: absolute;
+    top: 0px;
+    height: 95%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul{
+display: flex;
+list-style: none;
+font-size: 1.3rem;
+margin: 26px -18px;
+}
+
+#navbar ul li a{
+    padding: 23px 34px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+color: rgb(209, 203, 203);
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 214px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../bg6.jpeg') no-repeat center center/cover;
+    height: 358px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.85;
+}
+
+#home h1{
+    color: white;
+}
+
+#home p{
+    color: white;
+}
+
+/* SERVICES-CONTAINER */
+.h-secondery{
+    margin: 85px auto;
+    width: 224px;
+}
+
+#services{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+}
+
+#services .box{
+   /* width: 34%; */
+}
+#services .box h2{
+margin: 16px 62px;
+}
+
+#services .box p{
+    margin: 0px 33px;
+}
+
+#services .box img{
+    height: 127px;
+   margin: auto;
+    display: block;
+}
+
+
+#services .box .h-third{
+    margin: 23px 55px;
+   
+}
+
+#services .box .p-third{
+    margin: 0px 31px;
+
+}
+
+#services .box .h-forth{
+    margin: 23px 37px;
+   
+}
+
+.center{
+   padding: 0px 26px;
+    background-color: black;
+    color: white;
+}

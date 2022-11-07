@@ -1,0 +1,44 @@
+/* NAVIGATION SECTION */
+#navbar{
+flex-direction: column;
+}
+
+#navbar ul{
+    margin: 26px 20px;
+    padding-bottom: 4px;
+}
+
+#navbar ul li a{
+    padding: 0px 12px;
+    font-size: 1rem;
+}
+
+/* HOME SECTION */
+#home{
+height: 280px;
+}
+
+#home::before{
+height: 480px;
+}
+
+#home p{
+    font-size: 1.2rem;
+    width: 223px;
+}
+
+#home .h-primary{
+    font-size: 26px;
+    width: 176px;
+}
+
+/* SERVICES SECTION */
+#services{
+flex-direction: column;
+}
+
+#services .box{
+
+}
+
+/* FOOTER SECTION */
